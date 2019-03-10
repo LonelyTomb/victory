@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -14,14 +14,14 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
-      layout: "stacked"
+      layout: "posts"
 
 projects:
   sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 50
+  limit: 15
   exclude:
     forks: true
     projects:
